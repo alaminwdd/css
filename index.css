@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .box{
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    margin: 150px auto;
+    border-radius: 90px 150px;
+    box-shadow: 10px 2px 20px 4px;
+ }
+ .box:hover{
+border-radius: 50%;
+background-color: rgb(249, 14, 14);
+border-radius: 150px 90px;
+box-shadow: -10px -2px 20px 4px;
+ }
